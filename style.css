@@ -143,6 +143,24 @@ nav:hover #nav-bottom {
     border: none;
 }
 
+#moving-div {
+    margin-top: 10vh;
+    position: absolute;
+    background-color: red;
+    bottom: 3%;
+    display: flex;
+}
+
+#moving-div .move {
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+}
+
+#moving-div .move img {
+    height: 1vw;
+}
+
 #page2 {
     height: 100vh;
     width: 100%;
