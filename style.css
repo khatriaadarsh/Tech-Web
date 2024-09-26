@@ -1,168 +1,164 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: gilroy;
-    color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+  color: white;
 }
 
 html,
 body {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 nav {
-    position: fixed;
-    display: flex;
-    align-items: flex-start;
-    height: 12vh;
-    width: 100%;
-    padding: 2vw 10.4vw;
-    justify-content: space-between;
-    background-color: #111;
-    z-index: 10;
+  position: fixed;
+  display: flex;
+  align-items: flex-start;
+  height: 12vh;
+  width: 100%;
+  padding: 2vw 10.4vw;
+  justify-content: space-between;
+  background-color: #111;
+  z-index: 10;
 }
 
 nav h1 {
-    font-size: 1.6vw;
+  font-size: 1.6vw;
 }
 
 nav button {
-    background-color: #0BA34E;
-    display: flex;
-    align-items: center;
-    padding: 12px 14px;
-    font-size: 0.85vw;
-    text-transform: uppercase;
-    font-weight: 700;
-    border-radius: 50px;
-    border: none;
+  background-color: #0ba34e;
+  display: flex;
+  align-items: center;
+  padding: 12px 14px;
+  font-size: 0.85vw;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 50px;
+  border: none;
 }
 
 nav button svg {
-    height: 0.85vw;
-    margin-left: 1.5vw;
+  height: 0.85vw;
+  margin-left: 1.5vw;
 }
 
 nav:hover #nav-bottom {
-    height: 100%;
-    bottom: -100%;
+  height: 100%;
+  bottom: -100%;
 }
 
 #nav-bottom {
-    width: 79%;
-    height: 0vh;
-    position: absolute;
-    /* background-color: red; */
-    top: 100%;
-    background-color: #111;
-    z-index: 9;
-    border-bottom: 1px solid #fff;
+  width: 79%;
+  height: 0vh;
+  position: absolute;
+  /* background-color: red; */
+  top: 100%;
+  background-color: #111;
+  z-index: 9;
+  border-bottom: 1px solid #fff;
 }
 
-
 .nav-part2 {
-    display: flex;
-    gap: 1vw;
-    align-items: flex-start;
-    padding: 1vh 0;
-    position: relative;
-    z-index: 10;
+  display: flex;
+  gap: 1vw;
+  align-items: flex-start;
+  padding: 1vh 0;
+  position: relative;
+  z-index: 10;
 }
 
 .nav-part2 h4 {
-    font-size: 0.8vw;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-bottom: 2vw;
+  font-size: 0.8vw;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 2vw;
 }
 
 .nav-part2 h5 {
-    margin-bottom: 1vw;
-    /* background-color: red; */
-    display: none;
-    overflow: hidden;
+  margin-bottom: 1vw;
+  /* background-color: red; */
+  display: none;
+  overflow: hidden;
 }
 
 .nav-part2 h5 span {
-    font-size: 0.77vw;
-    font-weight: 400;
-    display: inline-block;
-    transform: translateY(25px);
-    display: inline-block;
+  font-size: 0.77vw;
+  font-weight: 400;
+  display: inline-block;
+  transform: translateY(25px);
+  display: inline-block;
 }
 
 #page1 {
-    height: 100vh;
-    width: 100%;
-    background-color: #111;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #page1 h1 {
-    font-size: 12vh;
-    text-transform: uppercase;
-    font-weight: 900;
+  font-size: 12vh;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 
 #page1 h1 svg {
-    height: 8vh;
-    width: 8vh;
-    background-color: #0BA34E;
-    border-radius: 45px;
+  height: 8vh;
+  width: 8vh;
+  background-color: #0ba34e;
+  border-radius: 45px;
 }
 
 #page1 p {
-    text-align: center;
-    font-weight: 400;
-    margin-top: 3vh;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 3vh;
 }
 
 #page1-something {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3px;
-    margin-top: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  margin-top: 2px;
 }
 
 #page1-something h4 {
-    font-weight: 400;
-    font-size: 1vw;
-    text-transform: lowercase;
-    padding: 5px 10px;
-    border: 1px solid #fff;
-    border-radius: 50px;
+  font-weight: 400;
+  font-size: 1vw;
+  text-transform: lowercase;
+  padding: 5px 10px;
+  border: 1px solid #fff;
+  border-radius: 50px;
 }
 
 #page1-something h4:nth-last-child(2) {
-    border: none;
+  border: none;
 }
 
 #moving-div {
-    margin-top: 10vh;
-    position: absolute;
-    background-color: red;
-    bottom: 3%;
-    display: flex;
+  margin-top: 10vh;
+  position: absolute;
+  background-color: red;
+  bottom: 3%;
 }
 
 #moving-div .move {
-    display: flex;
-    gap: 2vw;
-    align-items: center;
 }
 
 #moving-div .move img {
-    height: 1vw;
+  height: 1vw;
+  margin: 0 1vw;
 }
 
 #page2 {
-    height: 100vh;
-    width: 100%;
-    background-color: #111;
+  height: 100vh;
+  width: 100%;
+  background-color: #111;
 }
